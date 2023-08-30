@@ -1,0 +1,53 @@
+/* styles/Left.module.css */
+.leftContainer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 15vw;
+    height: calc(94vh - 60px);
+
+  }
+
+  .title{
+    margin: 10px 0px 5px 1px;
+  }
+
+  .uploadButton {
+    background-color: #007bff;
+    color: #fff;
+    margin: 5px 0px 15px 1px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+  }
+
+  .uploadButton {
+    /* ... Existing styles ... */
+    cursor: pointer;
+  }
+  
+  .hiddenInput {
+    display: none;
+  }
+  .inputGroup {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputGroup label {
+    width: 100px;
+    margin: 3px;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  

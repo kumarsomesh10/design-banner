@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60px; /* Set a suitable height for the header */
+    background-color: #f0f0f0;
+    font-size: 24px;
+    font-weight: bold;
+  }
