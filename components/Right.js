@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/Right.module.css";
 
-const right = ({ imageOptions, handleInputData }) => {
+const Right = ({ imageOptions, handleInputData }) => {
   const [inputCount, setInputCount] = useState(2); // Initial input count
 
   const increaseInputCount = () => {
@@ -90,4 +90,4 @@ const right = ({ imageOptions, handleInputData }) => {
   );
 };
 
-export default right;
+export default Right;

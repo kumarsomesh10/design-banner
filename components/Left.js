@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Left.module.css";
 
-const left = ({ onImageUpload, setImageOptions }) => {
+const Left = ({ onImageUpload, setImageOptions }) => {
   const handleImageUpload = (event) => {
     const image = event.target.files[0];
     onImageUpload(image); // Pass the image to the parent component
@@ -113,4 +113,4 @@ const left = ({ onImageUpload, setImageOptions }) => {
   );
 };
 
-export default left;
+export default Left;
